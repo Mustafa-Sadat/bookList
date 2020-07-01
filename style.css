@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-size: 16px;
+  max-width:1200px;
+
+}
+#box{
+  width:70%;
+  margin:40px auto;
+  box-shadow: 0 0 5px 2px rgb(25, 224, 148);
+  background-color: rgb(223, 223, 223);
+
+}
+
+#header{
+  padding:20px;
+  background-color:rgb(25, 224, 148);
+  text-align: center;
+
+}
+
+h3{
+  font-size:30px;
+  margin:10px 0;
+
+}
+p{
+  margin:10px 0;
+}
+
+#search-book input{
+  width:50%;
+  padding:10px 20px;
+  height:40px;
+  border:none;
+  border-radius:5px;
+}
+
+#content{ 
+  padding:20px;
+  
+}
+
+.title{
+  font-size:26px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10px;
+  padding:10px;
+  border-left:5px solid rgba(95, 93, 90, 0.63);
+  background-color: white;
+}
+
+li:hover{
+  border-left:5px solid blueviolet;
+}
+
+.delete{
+  background-color: blueviolet;
+  padding:10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+}
+
+.delete:hover{
+  background-color: black;
+  color:white;
+}
+
+
+.name{
+  margin:auto 0;
+  
+}
+
+#add{
+  text-align: center;
+  padding:10px 0 30px;
+
+}
+
+#add input{
+  padding:10px 20px;
+  height:40px;
+  border:none;
+  
+  
+}
+
+#btn{
+  margin-left: -6px;
+  border-radius:0 6px 6px 0 ;
+  background-color: blueviolet;
+  color:white;
+  cursor: pointer;
+  padding:10px 20px;
+  height:40px;
+  border:none;
+}
+#btn:hover{
+  background-color: black;
+  color:white;
+}
+
+#add #hide{
+  width:30px;
+  padding:10px 20px;
+  height:auto;
+}
+
+#add label{
+  line-height: 52px;
+}
